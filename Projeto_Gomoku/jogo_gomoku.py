@@ -227,9 +227,9 @@ class Jogo:
         '''Apresentação do Início do Jogo '''
         print('\nO jogo começará em alguns instantes...\n')
         sleep(3)
-        print('-=-' * 30)
-        print('\033[36mGomoku\033[m'.center(90))
-        print(f'{'-=-' * 30}\n')
+        print('-=-' * 33)
+        print('\033[36mGomoku\033[m'.center(99))
+        print(f'{'-=-' * 33}\n')
         return None
 
     def __verificacao_escolha_jogador(self, modo_jogo, lin, col):
