@@ -181,10 +181,6 @@ class Oponente:
                     if col == lin + contador and lin - col != 0:
                         if col == lin + contador:
                             self.__verificacao_pecas_oponente(matriz, lin, col)
-
-    
-        # Verificação para ver se o jogador venceu na diagonal secundária
-        self.contador_jogador = 0
         
         # Verificação da diagonal secundária para a esquerda
         for contador in range(18, 4, -1):
